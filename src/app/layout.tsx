@@ -6,8 +6,8 @@ import Navbar from "./components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Social Media App",
-  description: "Social media app built with Next.js",
+  title: "ConnectiFy",
+  description: "Social media app",
 };
 
 export default function RootLayout({
@@ -18,10 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="w-full bg-slate-100 px-4 md:px-8 lg:px-16 xl:px-32 2xl: px-64">
+        <div className="w-full bg-slate-100 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
         <Navbar/>
         </div>
-        <div className="w-full bg-slate-100 px-4 md:px-8 lg:px-16 xl:px-32 2xl: px-64">{children}
+        <div className="w-full bg-slate-100 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64">{children}
           </div>
         </body>
     </html>
