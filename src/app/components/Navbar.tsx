@@ -11,7 +11,7 @@ const Navbar =() =>{
        <div className='h-24 flex items-center justify-between'>
         {/* Left */}
         <div className="md:hidden lg:block w-[20%]">
-            <Link href="/" className="font-bold text-xl "><img src="/logo_connectify.png" alt="" /></Link>
+            <Link href="/" className="font-bold text-xl "><img src="/logo_connectiFy.png" alt="" /></Link>
         </div>
         {/* Center */}
         <div className="hidden md:flex w-[50%] text-sm ml-10 items-center justify-between">
