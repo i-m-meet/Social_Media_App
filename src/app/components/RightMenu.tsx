@@ -1,4 +1,5 @@
 
+import Ads from "./Ads";
 import Birthdays from "./Birthdays";
 import FriendRequests from "./FriendRequests";
 
@@ -9,6 +10,7 @@ const RightMenu=({userId}:{userId?:string}) =>{
             
             <FriendRequests/>
             <Birthdays/>
+            <Ads size="md"/>
 
         </div>
     );
