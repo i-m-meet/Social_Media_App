@@ -1,4 +1,5 @@
 
+import Birthdays from "./Birthdays";
 import FriendRequests from "./FriendRequests";
 
 const RightMenu=({userId}:{userId?:string}) =>{
@@ -7,6 +8,7 @@ const RightMenu=({userId}:{userId?:string}) =>{
             {/* Freind requests */}
             
             <FriendRequests/>
+            <Birthdays/>
 
         </div>
     );
